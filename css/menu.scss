@@ -18,6 +18,10 @@
                 color: #fff;
                 margin: 0 0 0 10px;
         }
+        
+        &:hover {
+            text-decoration:underline;
+        }
     }
     
      &__icon {

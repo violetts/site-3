@@ -1,0 +1,17 @@
+.tagline {
+    
+    &__title {
+        font-size: 69px;
+        margin: 0;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
+        color: #fff;
+    }
+    
+    &__desc {
+        font-size: 25px;
+        line-height: 35px;
+        color: #fff;
+    }
+}
+

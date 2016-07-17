@@ -1,0 +1,30 @@
+.menu-footer {
+    margin: 0;
+    padding: 0;
+    
+    &__item {
+        list-style:none;
+        display: inline-block;
+        vertical-align: top;        
+        width: 100px;
+        
+        &_social {
+            width: 280px;
+        }
+        
+        & + & {
+            margin-left: 70px;
+        }
+        
+        & .menu__link {
+            color: #8b8b8b;
+            padding: 0;
+        }
+        
+        & .title {
+            color: #8b8b8b;
+            margin: 0 0 15px;
+        }
+    }
+    
+}

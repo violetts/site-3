@@ -1,0 +1,13 @@
+.logo {
+    font-family: 'Open Sans Condensed';
+    font-size: 40px;
+    display: inline-block;
+        
+    &_black {
+        color: #222825;
+    }
+    
+    &_pink {
+        color: #b73958;
+    }
+}

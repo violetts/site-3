@@ -1,0 +1,22 @@
+.title {
+    font-family: 'Open Sans';
+    color: #404040;
+    font-weight: 400;
+
+    &_size_1x {
+        font-size: 35px;
+    }
+    
+    &_size_2x {
+         font-size: 27px;
+    }
+    
+    &_size_3x {
+        font-size: 21px;
+    }
+    
+    &_size_4x {
+        font-size: 17px;
+    }
+}
+

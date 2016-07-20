@@ -2,8 +2,21 @@
     margin: 0;
     padding: 0;
     
+    &__link {
+            color: #8b8b8b;
+            padding: 0;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+    }
+        
+    &__title {
+        color: #8b8b8b;
+        margin: 0 0 15px;
+    }
+    
     &__item {
-        list-style:none;
+        list-style: none;
         display: inline-block;
         vertical-align: top;        
         width: 100px;
@@ -15,16 +28,5 @@
         & + & {
             margin-left: 70px;
         }
-        
-        & .menu__link {
-            color: #8b8b8b;
-            padding: 0;
-        }
-        
-        & .title {
-            color: #8b8b8b;
-            margin: 0 0 15px;
-        }
     }
-    
 }

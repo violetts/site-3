@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin: 10px 0;
-    
        
     &__link {
         text-decoration: none;
         font-size: 17px;
         color: #454545;
-        padding: 0 20px;
+        padding: 4px 10px;
         
         &_login {
-                padding: 4px 10px;
                 border-radius: 4px;
                 background-color: #ff5649;
                 color: #fff;
@@ -20,11 +17,11 @@
         }
         
         &:hover {
-            text-decoration:underline;
+            text-decoration: underline;
         }
     }
-    
-     &__icon {
-            margin: 0 5px 0 0;
-        }
+
+    &__icon {
+        margin: 0 5px 0 0;
+    }
 }

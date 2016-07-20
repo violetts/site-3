@@ -2,6 +2,8 @@
     font-family: 'Open Sans';
     color: #404040;
     font-weight: 400;
+    margin: 0;
+    margin-bottom: 0.8em;
 
     &_size_1x {
         font-size: 35px;
@@ -13,10 +15,12 @@
     
     &_size_3x {
         font-size: 21px;
+        line-height: 1.2;
     }
     
     &_size_4x {
         font-size: 17px;
+        line-height: 1.2;
     }
 }
 

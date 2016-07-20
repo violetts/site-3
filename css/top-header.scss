@@ -1,0 +1,12 @@
+.top-header {
+    
+    &__right {
+        float: right;
+        display: inline-block;
+    }
+    
+    &__left {
+        float: left;
+        display: inline-block;
+    }
+}    

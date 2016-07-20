@@ -408,6 +408,8 @@ textarea {
   font-family: 'Open Sans';
   color: #404040;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.8em;
 }
 .title_size_1x {
   font-size: 35px;
@@ -417,24 +419,29 @@ textarea {
 }
 .title_size_3x {
   font-size: 21px;
+  line-height: 1.2;
 }
 .title_size_4x {
   font-size: 17px;
+  line-height: 1.2;
 }
 
 .page {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 23px;
+  color: #404040;
 }
 .page__header {
   background-image: url(../img/header_01.jpg);
   background-size: cover;
 }
 .page__section {
-  padding: 35px 0 0;
+  padding: 60px 0;
   text-align: center;
-  border-bottom: 1px solid #222825;
+}
+.page__section + .page__section {
+  border-top: 1px solid #222825;
 }
 .page__footer {
   background-color: #222825;
@@ -445,16 +452,14 @@ textarea {
   margin: 0;
   padding: 0;
   display: inline-block;
-  margin: 10px 0;
 }
 .menu__link {
   text-decoration: none;
   font-size: 17px;
   color: #454545;
-  padding: 0 20px;
+  padding: 4px 10px;
 }
 .menu__link_login {
-  padding: 4px 10px;
   border-radius: 4px;
   background-color: #ff5649;
   color: #fff;
@@ -470,6 +475,16 @@ textarea {
 .footer {
   background-color: #222825;
 }
+.footer__menu-footer {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__social {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  margin: 22px 35px;
+}
 .footer__menu .title_size_3x {
   color: #8b8b8b;
 }
@@ -484,7 +499,7 @@ textarea {
 }
 
 .circle {
-  margin: 75px 0 10px;
+  margin: 75px 0 0;
   padding: 0px;
 }
 .circle__item {
@@ -495,20 +510,21 @@ textarea {
   line-height: 179px;
   border-radius: 50%;
   text-align: center;
+  overflow: hidden;
 }
 .circle__item + .circle__item {
   margin-left: 75px;
 }
-.circle__item_blue {
+.circle__item_tickets {
   background-color: #4eb9f4;
 }
-.circle__item_green {
+.circle__item_camera {
   background-color: #6fc125;
 }
-.circle__item_pink {
+.circle__item_beer {
   background-color: #ff5649;
 }
-.circle__item_yellow {
+.circle__item_devices {
   background-color: #e48f23;
 }
 .circle__icon {
@@ -541,6 +557,7 @@ textarea {
 .container {
   width: 965px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -555,34 +572,15 @@ textarea {
   color: #b73958;
 }
 
-.header__menu {
+.header__top-header {
+  display: inline-block;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 28px 0;
-}
-.header__menu .menu {
-  float: right;
 }
 .header__tagline {
   padding: 337px 0px 55px;
   text-align: center;
-}
-
-.widget {
-  margin: 20px 0 60px;
-  text-align: left;
-}
-.widget__media {
-  width: 200px;
-  height: 134px;
-  display: inline-block;
-  vertical-align: top;
-  overflow: hidden;
-  margin: 0 22px 0 0;
-}
-.widget__about {
-  width: 670px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 img {
@@ -592,6 +590,17 @@ img {
 .menu-footer {
   margin: 0;
   padding: 0;
+}
+.menu-footer__link {
+  color: #8b8b8b;
+  padding: 0;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.menu-footer__title {
+  color: #8b8b8b;
+  margin: 0 0 15px;
 }
 .menu-footer__item {
   list-style: none;
@@ -605,17 +614,8 @@ img {
 .menu-footer__item + .menu-footer__item {
   margin-left: 70px;
 }
-.menu-footer__item .menu__link {
-  color: #8b8b8b;
-  padding: 0;
-}
-.menu-footer__item .title {
-  color: #8b8b8b;
-  margin: 0 0 15px;
-}
 
 .social {
-  margin: 22px 0;
   padding: 0;
 }
 .social__item {
@@ -634,6 +634,7 @@ img {
   line-height: 52px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 .social__link:hover {
   background-color: rgba(255, 255, 255, 0.82);
@@ -642,4 +643,37 @@ img {
   line-height: inherit;
   font-size: 30px;
   color: #252825;
+}
+
+.top-header__right {
+  float: right;
+  display: inline-block;
+}
+.top-header__left {
+  float: left;
+  display: inline-block;
+}
+
+.info-box {
+  text-align: left;
+}
+.info-box__img {
+  float: left;
+  width: 200px;
+  max-height: 134px;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 22px 0 0;
+}
+.info-box__about {
+  display: block;
+  vertical-align: top;
+  overflow: hidden;
+}
+.info-box__text {
+  margin: 0;
+}
+.info-box + .info-box {
+  margin: 60px 0 0;
 }

@@ -1,12 +1,10 @@
 .header {
     
-    &__menu {
+    &__top-header {
+        display: inline-block;
+        width: 100%;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 28px 0;
-        
-        & .menu {
-            float:right;
-        }
     }
     
     &__tagline {

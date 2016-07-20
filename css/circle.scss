@@ -1,5 +1,5 @@
 .circle {
-    margin: 75px 0 10px;
+    margin: 75px 0 0;
     padding: 0px;
      
     
@@ -11,24 +11,25 @@
         line-height: 179px;
         border-radius: 50%;
         text-align: center;
+        overflow: hidden;
         
         & + & {
             margin-left: 75px;
         }
         
-        &_blue{
+        &_tickets {
            background-color: #4eb9f4; 
         }
         
-         &_green{
+         &_camera {
             background-color: #6fc125;
         }
         
-         &_pink{
+         &_beer {
             background-color: #ff5649;
         }
         
-         &_yellow{
+         &_devices {
             background-color: #e48f23;
         }
     }

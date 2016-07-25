@@ -1,9 +1,10 @@
 .info-box {
     text-align: left;
     
+    
     &__img {
         float: left;
-        width: 200px;
+        width: 20.72538860103627%;
         max-height: 134px;
         line-height: 0;
         display: inline-block;
@@ -12,13 +13,13 @@
     }
     
     &__about {
-        display: block;
         vertical-align: top;
         overflow: hidden;
     }
     
     &__text {
         margin: 0;
+        font-size: 1em;
     }
     
     & + & {

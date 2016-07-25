@@ -1,6 +1,7 @@
 .circle {
     margin: 75px 0 0;
-    padding: 0px;
+    padding: 0 12.435233160621761%;
+    text-align: justify;
      
     
     &__item {
@@ -12,10 +13,6 @@
         border-radius: 50%;
         text-align: center;
         overflow: hidden;
-        
-        & + & {
-            margin-left: 75px;
-        }
         
         &_tickets {
            background-color: #4eb9f4; 
@@ -36,17 +33,23 @@
     
     &__icon {
         line-height: inherit;
-        font-size: 70px;
+        font-size: 4.667em;
         color: #fff;
     }
     
     &__desc {
-        font-size: 17px;
-        line-height: 25px;
+        font-size: 1.133em;
+        line-height: 1.667em;
         color: #fff;
         display: block;
         position: relative;
         top: -70px;
+    }
+    
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
     }
 }
 

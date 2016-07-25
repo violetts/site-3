@@ -4,21 +4,15 @@
     &__menu-footer {
         display: inline-block;
         vertical-align: top;
+        float: left;
+        width: 70%;
     }
     
     &__social {
         display: inline-block;
+        float: right;
+        width: 24%;
         vertical-align: top;
-        width: 280px;
         margin: 22px 35px;
-    }
-    
-    &__menu .title_size_3x {
-        color: #8b8b8b;
-    }
-    
-    &__menu .menu__link {
-        color: #8b8b8b;
-        font-size: 15px;
     }
 }

@@ -2,24 +2,18 @@
     font-family: 'Open Sans';
     color: #404040;
     font-weight: 400;
-    margin: 0;
-    margin-bottom: 0.8em;
+    margin: 0 0 0.8em 0;
 
     &_size_1x {
-        font-size: 35px;
+        font-size: 2.333rem;
     }
     
     &_size_2x {
-         font-size: 27px;
+         font-size: 1.800rem; //27px
     }
     
     &_size_3x {
-        font-size: 21px;
-        line-height: 1.2;
-    }
-    
-    &_size_4x {
-        font-size: 17px;
+        font-size: 1.400rem; //21px
         line-height: 1.2;
     }
 }

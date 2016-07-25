@@ -1,10 +1,15 @@
 .header {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 28px 0;
     
-    &__top-header {
+     &__right {
+        float: right;
         display: inline-block;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 28px 0;
+    }
+    
+    &__left {
+        float: left;
+        display: inline-block;
     }
     
     &__tagline {

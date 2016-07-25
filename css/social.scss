@@ -1,15 +1,13 @@
 .social {
     padding: 0;
+    text-align: justify;
+    font-size: 0.1px; /*hide whitespace between elements*/
     
     &__item {
         display: inline-block;
         vertical-align: top;
         list-style: none;
         text-align: center;
-        
-        & + & {
-            margin-left: 20px;
-        }
     }
     
     &__link {
@@ -30,6 +28,12 @@
         line-height: inherit;
         font-size: 30px;
         color: #252825;
+    }
+    
+    &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
     }
 }
 

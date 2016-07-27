@@ -426,6 +426,7 @@ textarea {
   font-size: 15px;
   line-height: 23px;
   color: #404040;
+  min-width: 995px;
 }
 .page__section {
   padding: 60px 0;
@@ -484,9 +485,10 @@ textarea {
 .footer__social {
   display: inline-block;
   float: right;
-  width: 24%;
+  width: 30%;
   vertical-align: top;
-  margin: 22px 35px;
+  padding: 22px 35px;
+  box-sizing: border-box;
 }
 
 .copyright {
@@ -495,8 +497,9 @@ textarea {
 }
 
 .circle {
-  margin: 75px 0 0;
-  padding: 0 12.435233160621761%;
+  margin: 75px auto 0;
+  width: 80%;
+  min-width: 500px;
   text-align: justify;
 }
 .circle__item {
@@ -557,7 +560,7 @@ textarea {
   min-width: 965px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 15px;
 }
 
 .logo {

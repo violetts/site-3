@@ -11,8 +11,9 @@
     &__social {
         display: inline-block;
         float: right;
-        width: 24%;
+        width: 30%;
         vertical-align: top;
-        margin: 22px 35px;
+        padding: 22px 35px;
+        box-sizing: border-box;
     }
 }

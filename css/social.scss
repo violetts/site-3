@@ -4,10 +4,9 @@
     font-size: 0.1px; /*hide whitespace between elements*/
     
     &__item {
-        display: inline-block;
-        vertical-align: top;
         list-style: none;
         text-align: center;
+        display: inline-block;
     }
     
     &__link {

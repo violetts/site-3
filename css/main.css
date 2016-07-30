@@ -438,6 +438,7 @@ textarea {
   background-image: url(../img/header_01.jpg);
   background-size: cover;
   padding: 17.65% 0 4.20%;
+  margin: -90px 0 0;
 }
 .page__section + .page__section {
   border-bottom: 1px solid #222825;
@@ -480,17 +481,13 @@ textarea {
   background-color: #222825;
 }
 .footer__menu-footer {
-  display: inline-block;
-  vertical-align: top;
   float: left;
   width: 70%;
 }
 .footer__social {
-  display: inline-block;
   float: right;
   width: 30%;
-  vertical-align: top;
-  padding: 22px 35px;
+  padding: 22px 2.9166666666666665%;
   box-sizing: border-box;
 }
 
@@ -515,8 +512,9 @@ textarea {
 }
 .circle__inner {
   position: absolute;
-  top: 40px;
-  left: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .circle__inner-desc {
   font-size: 18px;
@@ -586,14 +584,13 @@ textarea {
 .header {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1.4713610089332634% 0;
+  position: relative;
 }
 .header__right {
   float: right;
-  display: inline-block;
 }
 .header__left {
   float: left;
-  display: inline-block;
 }
 .header__tagline {
   padding: 337px 0px 55px;
@@ -638,10 +635,9 @@ img {
   /*hide whitespace between elements*/
 }
 .social__item {
-  display: inline-block;
-  vertical-align: top;
   list-style: none;
   text-align: center;
+  display: inline-block;
 }
 .social__link {
   display: block;
@@ -684,6 +680,7 @@ img {
   max-height: 134px;
   line-height: 0;
   margin: 0 1.8333333333333333% 0 0;
+  overflow: hidden;
 }
 .info-box__about {
   vertical-align: top;

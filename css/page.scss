@@ -14,7 +14,8 @@
         &_background {
             background-image: url(../img/header_01.jpg);
             background-size: cover;
-           padding: 17.65% 0 4.20%; // 335px 0 80px;
+            padding: 17.65% 0 4.20%; // 335px 0 80px;
+            margin: -90px 0 0;
         }
         
         & + & {

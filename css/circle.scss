@@ -3,19 +3,43 @@
     width: 80%;
     min-width: 500px;
     text-align: justify;
-     
     
     &__item {
         list-style: none;
         display: inline-block;
-        width: 179px;
-        height: 179px;
-        line-height: 179px;
-        border-radius: 50%;
+        width: 18.645833333333332%; //179px
         text-align: center;
         overflow: hidden;
+        position: relative;
+    }
+    
+    &__inner {
+        position: absolute;
+        top: 40px;
+        left: 60px;
         
-        &_tickets {
+        &-desc {
+            font-size: 18px;
+            
+            $font-size: 18px;
+            line-height: #{36px/$font-size}em; 
+            
+            color: #fff;
+        }
+    }
+    
+    &__icon {
+        font-size: 74px;
+        color: #fff;
+    }
+    
+    &__desc {
+        padding: 100% 0 0;
+        background-color: #4eb9f4; 
+        display: block;
+        border-radius: 50%;
+        
+         &_tickets {
            background-color: #4eb9f4; 
         }
         
@@ -32,20 +56,6 @@
         }
     }
     
-    &__icon {
-        line-height: inherit;
-        font-size: 4.667em;
-        color: #fff;
-    }
-    
-    &__desc {
-        font-size: 1.133em;
-        line-height: 1.667em;
-        color: #fff;
-        display: block;
-        position: relative;
-        top: -70px;
-    }
     
     &:after {
         content: '';

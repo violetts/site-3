@@ -2,19 +2,29 @@
     font-family: 'Open Sans';
     color: #404040;
     font-weight: 400;
-    margin: 0 0 0.8em 0;
+    
 
     &_size_1x {
-        font-size: 2.333rem;
+        font-size: 37px;
+        
+        $font-size: 37px;
+        margin: 0 0 #{30px/$font-size}em;
     }
     
     &_size_2x {
-         font-size: 1.800rem; //27px
+        font-size: 27px;
+        
+        $font-size: 27px;
+        margin: 0 0 #{20px/$font-size}em;
+
     }
     
     &_size_3x {
-        font-size: 1.400rem; //21px
-        line-height: 1.2;
+        font-size: 21px;
+        
+        $font-size: 27px;
+        margin: 0 0 #{10px/$font-size}em;
+        line-height: #{32px/$font-size}em;
     }
 }
 

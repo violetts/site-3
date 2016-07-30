@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     display: inline-block;
+    text-align: justify;
        
     &__link {
         text-decoration: none;
-        font-size: 1.133em;
+        font-size: 18px;
         color: #454545;
         padding: 4px 10px;
         

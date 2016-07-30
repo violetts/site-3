@@ -408,55 +408,58 @@ textarea {
   font-family: 'Open Sans';
   color: #404040;
   font-weight: 400;
-  margin: 0 0 0.8em 0;
 }
 .title_size_1x {
-  font-size: 2.333rem;
+  font-size: 37px;
+  margin: 0 0 0.81081em;
 }
 .title_size_2x {
-  font-size: 1.800rem;
+  font-size: 27px;
+  margin: 0 0 0.74074em;
 }
 .title_size_3x {
-  font-size: 1.400rem;
-  line-height: 1.2;
+  font-size: 21px;
+  margin: 0 0 0.37037em;
+  line-height: 1.18519em;
 }
 
 .page {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 1.4375em;
   color: #404040;
   min-width: 995px;
 }
 .page__section {
-  padding: 60px 0;
+  padding: 3.15% 0;
   text-align: center;
 }
 .page__section_background {
   background-image: url(../img/header_01.jpg);
   background-size: cover;
-  padding: 335px 0 80px;
+  padding: 17.65% 0 4.20%;
 }
 .page__section + .page__section {
   border-bottom: 1px solid #222825;
 }
 .page__footer {
   background-color: #222825;
-  padding: 30px 0;
+  padding: 1.5764582238570677% 0;
 }
 .page__desc {
-  font-size: 1.133em;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.66667em;
 }
 
 .menu {
   margin: 0;
   padding: 0;
   display: inline-block;
+  text-align: justify;
 }
 .menu__link {
   text-decoration: none;
-  font-size: 1.133em;
+  font-size: 18px;
   color: #454545;
   padding: 4px 10px;
 }
@@ -493,7 +496,7 @@ textarea {
 
 .copyright {
   color: #8b8b8b;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .circle {
@@ -505,37 +508,42 @@ textarea {
 .circle__item {
   list-style: none;
   display: inline-block;
-  width: 179px;
-  height: 179px;
-  line-height: 179px;
-  border-radius: 50%;
+  width: 18.645833333333332%;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
-.circle__item_tickets {
-  background-color: #4eb9f4;
+.circle__inner {
+  position: absolute;
+  top: 40px;
+  left: 60px;
 }
-.circle__item_camera {
-  background-color: #6fc125;
-}
-.circle__item_beer {
-  background-color: #ff5649;
-}
-.circle__item_devices {
-  background-color: #e48f23;
+.circle__inner-desc {
+  font-size: 18px;
+  line-height: 2em;
+  color: #fff;
 }
 .circle__icon {
-  line-height: inherit;
-  font-size: 4.667em;
+  font-size: 74px;
   color: #fff;
 }
 .circle__desc {
-  font-size: 1.133em;
-  line-height: 1.667em;
-  color: #fff;
+  padding: 100% 0 0;
+  background-color: #4eb9f4;
   display: block;
-  position: relative;
-  top: -70px;
+  border-radius: 50%;
+}
+.circle__desc_tickets {
+  background-color: #4eb9f4;
+}
+.circle__desc_camera {
+  background-color: #6fc125;
+}
+.circle__desc_beer {
+  background-color: #ff5649;
+}
+.circle__desc_devices {
+  background-color: #e48f23;
 }
 .circle:after {
   content: '';
@@ -544,14 +552,14 @@ textarea {
 }
 
 .tagline__title {
-  font-size: 4.600em;
-  margin: 0 0 0.4em 0;
+  font-size: 69px;
+  margin: 0 0 0.43478em 0;
   text-transform: uppercase;
   text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
   color: #fff;
 }
 .tagline__desc {
-  font-size: 1.667em;
+  font-size: 25px;
   line-height: 2.333em;
   color: #fff;
 }
@@ -560,12 +568,12 @@ textarea {
   min-width: 965px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 1.2195121951219512%;
 }
 
 .logo {
   font-family: 'Open Sans Condensed';
-  font-size: 2.667em;
+  font-size: 40px;
   display: inline-block;
 }
 .logo_black {
@@ -577,7 +585,7 @@ textarea {
 
 .header {
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 28px 0;
+  padding: 1.4713610089332634% 0;
 }
 .header__right {
   float: right;
@@ -675,9 +683,7 @@ img {
   width: 20.72538860103627%;
   max-height: 134px;
   line-height: 0;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 22px 0 0;
+  margin: 0 1.8333333333333333% 0 0;
 }
 .info-box__about {
   vertical-align: top;
@@ -685,10 +691,10 @@ img {
 }
 .info-box__text {
   margin: 0;
-  font-size: 1em;
+  font-size: 16px;
 }
 .info-box + .info-box {
-  margin: 60px 0 0;
+  margin: 5% 0 0;
 }
 
 h1,
@@ -703,8 +709,12 @@ p {
   margin: 0;
 }
 
+.clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
+}
+
+.clearfix:after {
   clear: both;
 }

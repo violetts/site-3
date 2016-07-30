@@ -1,18 +1,20 @@
 .page {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 16px;
+    
+    $font-size: 16px;
+    line-height: #{23px/$font-size}em;
     color: #404040;
     min-width: 995px;
     
     &__section {
-        padding: 60px 0;
+        padding: 3.15% 0;
         text-align: center;
         
         &_background {
             background-image: url(../img/header_01.jpg);
             background-size: cover;
-            padding: 335px 0 80px;
+           padding: 17.65% 0 4.20%; // 335px 0 80px;
         }
         
         & + & {
@@ -22,11 +24,13 @@
     
     &__footer {
         background-color: #222825;
-        padding: 30px 0;
+        padding: 1.5764582238570677% 0;
     }
     
     &__desc {
-        font-size: 1.133em;
-        line-height: 1.2;
+        font-size: 18px;
+        
+        $font-size: 18px;
+        line-height: #{30px/$font-size}em;    
     }
 }
